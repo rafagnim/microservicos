@@ -7,4 +7,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rafagnim/microservicos.git
+          uri: https://github.com/oswaldoneto/dio-experts-config.git
+          #uri: https://github.com/rafagnim/microservicos/configs.git

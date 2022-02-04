@@ -1,0 +1,21 @@
+## Para utilizar configuração de porta local
+server:
+  port: 8081
+
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/shoppingcart?createDatabaseIfNotExist=True
+    username: root
+    password:
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+  application:
+    name: shopping-cart
+
+  cloud:
+    config:
+      uri: http://localhost:8888
